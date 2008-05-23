@@ -1,6 +1,6 @@
 Summary:	Lightweight network manager
 Name:     	lxnm
-Version:	0.1.3
+Version:	0.2
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Graphical desktop/Other
@@ -36,3 +36,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-, root, root)
 %{_sbindir}/%name
 %{_datadir}/%name
+%{_mandir}/man1/%name.1.*
