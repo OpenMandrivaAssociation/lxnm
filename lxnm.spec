@@ -1,6 +1,6 @@
 Summary:	Lightweight network manager
 Name:     	lxnm
-Version:	0.2
+Version:	0.2.1
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Graphical desktop/Other
