@@ -21,12 +21,6 @@ Lightweight network manager for LXDE supporting wireless connections.
 %install
 %makeinstall_std
 
-%find_lang %{name}
-
-%post  
-
-%postun
-
 %files -f %{name}.lang
 %{_sbindir}/%{name}
 %{_datadir}/%{name}
