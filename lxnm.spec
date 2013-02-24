@@ -1,10 +1,10 @@
 Summary:	Lightweight network manager
-Name:     	lxnm
+Name:		lxnm
 Version:	0.2.2
 Release:	4
 License:	GPLv2+
 Group:		Graphical desktop/Other
-Source0: 	http://dfn.dl.sourceforge.net/sourceforge/lxde/%{name}-%{version}.tar.gz
+Source0:	http://dfn.dl.sourceforge.net/sourceforge/lxde/%{name}-%{version}.tar.gz
 URL:		http://lxde.sourceforge.net/
 BuildRequires:	gtk+2-devel
 
@@ -21,7 +21,7 @@ Lightweight network manager for LXDE supporting wireless connections.
 %install
 %makeinstall_std
 
-%files -f %{name}.lang
+%files
 %{_sbindir}/%{name}
 %{_datadir}/%{name}
 %{_mandir}/man1/%{name}.1.*
