@@ -1,7 +1,7 @@
 Summary:	Lightweight network manager
 Name:		lxnm
 Version:	0.2.2
-Release:	4
+Release:	5
 License:	GPLv2+
 Group:		Graphical desktop/Other
 Source0:	http://dfn.dl.sourceforge.net/sourceforge/lxde/%{name}-%{version}.tar.gz
