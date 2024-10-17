@@ -5,7 +5,7 @@ Release:	5
 License:	GPLv2+
 Group:		Graphical desktop/Other
 Source0:	http://dfn.dl.sourceforge.net/sourceforge/lxde/%{name}-%{version}.tar.gz
-URL:		http://lxde.sourceforge.net/
+URL:		https://lxde.sourceforge.net/
 BuildRequires:	gtk+2-devel
 
 %description
